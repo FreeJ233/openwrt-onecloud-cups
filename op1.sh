@@ -16,3 +16,5 @@
 # Add a feed source
 echo 'src-git dns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
 svn co https://github.com/shiyu1314/openwrt-onecloud/trunk/target/linux/meson target/linux/meson
+echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
+
